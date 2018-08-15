@@ -1,0 +1,35 @@
+{
+  "Edges": [
+    {
+      "name": "1",
+      "weight": 5.0,
+      "startNode": {
+        "name": "0"
+      },
+      "endNode": {
+        "name": "1"
+      }
+    },
+    {
+      "name": "2",
+      "weight": 5.0,
+      "startNode": {
+        "name": "1"
+      },
+      "endNode": {
+        "name": "2"
+      }
+    }
+  ],
+  "Nodes": [
+    {
+      "name": "0"
+    },
+    {
+      "name": "1"
+    },
+    {
+      "name": "2"
+    }
+  ]
+}

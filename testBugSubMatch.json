@@ -1,0 +1,44 @@
+{
+  "Edges": [
+    {
+      "name": "1",
+      "weight": 0.0,
+      "startNode": {
+        "name": "1"
+      },
+      "endNode": {
+        "name": "2"
+      }
+    },
+    {
+      "name": "3",
+      "weight": 0.0,
+      "startNode": {
+        "name": "3"
+      },
+      "endNode": {
+        "name": "4"
+      }
+    }
+  ],
+  "Nodes": [
+    {
+      "name": "0"
+    },
+    {
+      "name": "1"
+    },
+    {
+      "name": "2"
+    },
+    {
+      "name": "3"
+    },
+    {
+      "name": "4"
+    },
+    {
+      "name": "5"
+    }
+  ]
+}

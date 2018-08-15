@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="mainView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="browseButton" layoutX="105.0" layoutY="326.0" onAction="#browseButtonClick" text="Browse" />
+        <Button fx:id="executeButton" layoutX="327.0" layoutY="366.0" mnemonicParsing="false" onAction="#executeButtonClick" text="Execute" />
+        <TextField fx:id="fileUrlTextField" layoutX="36.0" layoutY="289.0" prefHeight="25.0" prefWidth="200.0" />
+        <TextArea fx:id="inputGraphTextArea" layoutX="32.0" layoutY="71.0" prefHeight="200.0" prefWidth="200.0" />
+        <Label layoutX="36.0" layoutY="37.0" text="Input Graph" />
+        <TextArea fx:id="outputGraphTextArea" layoutX="485.0" layoutY="71.0" prefHeight="200.0" prefWidth="200.0" />
+        <Label layoutX="485.0" layoutY="37.0" text="Matching Graph" />
+      <TextArea fx:id="maxMatchGraphTextArea" layoutX="261.0" layoutY="71.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="261.0" layoutY="37.0" text="Max Match Graph" />
+      <TextField fx:id="maxMatchGraphUriTextField" layoutX="262.0" layoutY="289.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="329.0" layoutY="326.0" mnemonicParsing="false" onAction="#maxMatchBrowseButtonClick" text="Browse" />
+      <TextField fx:id="outputMatchingGraphUriTextField" layoutX="485.0" layoutY="289.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="559.0" layoutY="326.0" mnemonicParsing="false" onAction="#outputMatchingGraphButtonClick" text="Browse" />
+      <Button fx:id="editingButton" layoutX="106.0" layoutY="366.0" mnemonicParsing="false" onAction="#editingButtonClick" text="Editing" />
+        <TextField fx:id="utilsTextField" layoutX="486.0" layoutY="366.0" prefHeight="25.0" prefWidth="200.0" />
+    </children>
+</Pane>
